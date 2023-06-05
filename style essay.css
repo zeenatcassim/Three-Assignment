@@ -1,0 +1,106 @@
+body{
+    text-align: center;
+    
+}
+
+.scroll{
+    color: #faeedf;
+    font-family: sans-serif;
+    padding: 15px 20px;
+    border: 2px solid #f3958b;
+    border-radius: 5px;
+    background-color: #f3958b;
+    transition:ease-in-out;
+}
+
+.scroll:hover{
+    color: #f3958b;
+    background: #faeedf;
+    font-size: 22px;
+}
+
+#scroll-up-button{
+    position: fixed;
+    bottom: 25px;
+    right: 15px;
+}
+
+.main-nav{
+    position: fixed;
+    top: 1px;
+    right: -650px;
+    padding-top: 10px;
+padding-right: 20px;
+margin-left: 10px;
+    background-color: #f3958b;
+    width: 2800px;
+    height: 80px;
+}
+
+@media screen and (400px <= width <= 1000px){
+    .main-nav{
+        position: absolute;
+        text-align: right;
+        right: 0;
+    }
+}
+
+.nav-text{
+    font-size: 18px;
+    padding: 13px 13px 13px 13px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: white;
+}
+
+.text{
+    color: #737373;
+}
+
+.text:hover{
+    color: white;
+}
+
+.nav-text:hover{
+    background-color: #737373;
+    border-color: white;
+    color: white;
+    transition: ease-in-out;
+    font-size: 22px;
+}
+
+main{
+    margin-top: 90px;
+    background-color: #737373c6;
+    height: 590px;
+}
+
+.title-1{
+padding-top: 100px;
+padding-bottom: 90px;
+font-size: 50px;
+color: #a7d1d0;
+font-family: 'Courier New', Courier, monospace;
+}
+
+.text-1{
+font-style: oblique;
+color: #a7d1d0;
+font-size: 18px;
+}
+
+.essay-section{
+    margin-top: 45px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 5px;
+    font-size: 19px;
+    background-color: #faeedf;
+}
+
+footer{
+    font-style: oblique;
+    color: #a7d1d0;
+    font-family: 'Courier New', Courier, monospace;
+}

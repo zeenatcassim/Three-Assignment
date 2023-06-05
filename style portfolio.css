@@ -1,0 +1,159 @@
+body{
+    text-align: center;
+}
+
+.scroll{
+    color: #a7d1d0;
+    font-family: sans-serif;
+    padding: 15px 20px;
+    border: 2px solid #faeedf;
+    border-radius: 5px;
+    background-color: #faeedf;
+    transition:ease-in-out;
+}
+
+.scroll:hover{
+    color: #f3958b;
+    background: #faeedf;
+    font-size: 22px;
+}
+
+#scroll-up-button{
+    position: fixed;
+    bottom: 25px;
+    right: 15px;
+}
+
+nav{
+position: fixed;
+background-color: #ebd7c5;
+right: -650px;
+top: 1px;
+padding-top: 10px;
+padding-right: 20px;
+margin-left: 10px;
+width: 2800px;
+height: 80px;
+
+}
+
+.nav-text{
+    font-size: 18px;
+  padding: 13px 13px 13px 13px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: white;
+}
+
+@media screen and (400px <= width <= 1000px){
+    nav{
+        position: absolute;
+        text-align: right;
+        right: 0;
+    }
+}
+
+.text{
+    color: #a7d1d0;
+   
+}
+
+.text:hover{
+    color: white;
+    font-size: 22px;
+}
+
+.nav-text:hover{
+    background-color: #a7d1d0;
+  border: #a7d1d0;
+    transition: ease-in-out;
+}
+
+main{
+    margin-top: 90px;
+    background-color: #f3958b;
+    height: 590px;
+}
+
+.title1{
+    padding-top: 100px;
+    color: #faeedf;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.belowtitle1{
+    color: #737373;
+    font-style: oblique;
+}
+
+.par1{
+    padding-top: 95px;
+    font-style: oblique;
+    font-size: 20px;
+}
+
+.writing{
+    padding-top: 80px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    background-color: #a7d1d0;
+    height: 1150px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+.story{
+    font-style: oblique;
+    font-size: 19px;
+}
+
+.coding{
+    padding-top: 80px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    background-color: #a7d1d0;
+    height: 200px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+}
+
+.drawing{
+    padding-top: 80px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    background-color: #a7d1d0;
+    height: 400px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+}
+
+.links{
+    color: white;
+}
+
+.links:hover{
+  
+    font-size: 25px;
+}
+
+
+
+footer{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    color: #f3958b;
+}

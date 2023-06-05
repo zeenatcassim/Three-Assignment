@@ -1,0 +1,234 @@
+body{
+    text-align: center;
+    
+}
+
+.main-nav{
+position: fixed;
+background-color: #a7d1d0;
+right: -650px;
+top: 1px;
+padding-top: 10px;
+padding-right: 20px;
+margin-left: 10px;
+width: 2800px;
+height: 80px;
+
+}
+
+
+
+@media screen and (400px <= width <= 1000px){
+.main-nav{
+    position: absolute;
+    text-align: right;
+    right: 0;
+}
+
+
+.homepage-text1{
+    text-align: center;
+    font-size: 13px;
+}
+
+.homepage-text2{
+    text-align: center;
+    font-size: 11px;
+}
+
+.nav-1{
+    display: grid;
+    grid-template-columns: repeat(1,0fr);
+    gap: 1.5px;
+   grid-template-rows: repeat(4,0fr);
+   align-items: center;
+}
+
+.one{
+    grid-column: 1;
+grid-row: 1;
+    width: 50px;
+    height: 150px;
+}
+
+.two{
+    grid-column: 1;
+grid-row: 2;
+    width: 50px;
+    height: 150px;
+}
+
+.three{
+    grid-column: 1;
+grid-row: 3;
+    width: 50px;
+    height: 150px;
+}
+
+.four{
+    grid-column: 1;
+grid-row: 4;
+    width: 50px;
+    height: 150px;
+}
+}
+
+.scroll{
+    color: #737373;
+       padding: 15px 20px;
+       border: 2px solid #a7d1d0;
+       border-radius: 5px;
+       background-color: #a7d1d0;
+       transition:ease-in-out
+   }
+   
+   .scroll:hover{
+      color: #ebd7c5;
+       background: #737373;
+       font-size: 22px;
+   }
+   
+   #scroll-up-button{
+       position: fixed;
+       bottom: 25px;
+       right: 15px;
+   }
+
+.nav-text{
+    font-size: 18px;
+  padding: 13px 13px 13px 13px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-color: white;
+    
+}
+.text{
+     color: #737373;
+}
+.nav-text:hover{
+    background-color: #f3958b;
+    border-color: white;
+    color: white;
+    transition: ease-in-out;
+    font-size: 22px;
+}
+
+main{
+    margin-top: 90px;
+    background-color: #faeedf;
+    height: 680px;
+
+}
+
+.homepage-title1{
+   padding-top: 100px;
+   padding-bottom: 40px;
+   color: #f3958b;
+   font-size: 50px;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+.homepage-text1{
+    font-style: oblique;
+    color: #737373;    
+    font-size: 20px;
+}
+
+
+.homepage-title2{
+    padding-top: 20px;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: gray;
+}
+
+.homepage-text2{
+    font-style: oblique;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.homepage-ext{
+ color: #f3958b;
+ font-size: 19px;
+ font-family: 'Courier New', Courier, monospace;
+}
+
+.homepage-title3{
+    color: #a7d1d0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+.nav-1{
+    display: grid;
+    grid-template-columns: repeat(2,0fr);
+    gap: 1.5px;
+   grid-template-rows: repeat(2,0fr);
+   align-items: center;
+   margin-left: 110px;
+   border-radius: 20px;
+   color: #faeedf;
+   font-size: 20px;
+}
+
+
+
+.one{
+grid-column: 1;
+grid-row: 1;
+padding: 20px 20px 20px 20px;
+width: 600px;
+height: 100px;
+background-color: #f3958b;
+}
+
+.two{
+    grid-column: 2;
+    grid-row: 1;
+    padding: 20px 20px 20px 20px;
+    width: 600px;
+height: 100px;
+background-color: #f3958b;
+}
+
+.three{
+    grid-column: 1;
+    grid-row: 2;
+    padding: 20px 20px 20px 20px;
+    width: 600px;
+height: 100px;
+background-color: #f3958b;
+}
+
+.four{
+    grid-column: 2;
+    grid-row: 2;
+    padding: 20px 20px 20px 20px;
+    width: 600px;
+height: 100px;
+background-color: #f3958b;
+}
+
+.nav-btn{
+  color: #737373;
+    margin-top: 20px;
+    padding: 15px 15px 15px 15px;
+    border-radius: 10px;
+    border-color: #faeedf;
+}
+
+
+
+.nav-btn:hover{
+    background-color: #737373;
+    color: #faeedf;
+}
+
+footer{
+    padding-top: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+}
